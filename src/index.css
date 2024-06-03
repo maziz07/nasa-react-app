@@ -3,9 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #030614;
+  color: white;
+  background-color: #030615;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,7 +17,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-#root{
+
+#root {
   min-height: 100vh;
   display: flex;
   display: relative;
@@ -47,6 +47,12 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
 
+.bgGradient {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  backgroud: linear-gradient(to top, #030615, rgba(255,255,255,0));
 
 }
